@@ -9,8 +9,8 @@ int main() {
     printf("Vui long so nam lam viec cho cong ty");
     scanf("%d", &b);
 
-    int luongchinhthuc = 0;
-    float thuongthang13 = 0;
+    int luongchinhthuc;
+    float thuongthang13;
     if (a < 2) {
         printf("Luong chinh thuc trong 12 thang chinh la 10 trieu");
         luongchinhthuc = 10;
